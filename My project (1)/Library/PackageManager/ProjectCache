@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638197765892425106
-    m_Hash: 1494383352
+      ticks: 638203775576776276
+    m_Hash: 4290370489
   m_LockFileStatus:
     m_FilePath: C:/Users/nip02/OneDrive/Documentos/GitHub/Fisio_room/My project (1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638197765892467078
-    m_Hash: 2608605956
+      ticks: 638203775596929868
+    m_Hash: 880516224
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -474,134 +474,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.renderstreaming@3.1.0-exp.6
-  testable: 0
-  isDirectDependency: 1
-  version: 3.1.0-exp.6
-  source: 1
-  resolvedPath: C:\Users\nip02\OneDrive\Documentos\GitHub\Fisio_room\My project (1)\Library\PackageCache\com.unity.renderstreaming@3.1.0-exp.6
-  assetPath: Packages/com.unity.renderstreaming
-  name: com.unity.renderstreaming
-  displayName: Unity Render Streaming
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: This is a package for using Unity Render Streaming technology.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.1.1-preview
-    - 1.2.0-preview
-    - 1.2.1-preview
-    - 1.2.2-preview
-    - 1.2.3-preview
-    - 2.0.0-preview
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.0.0-preview.4
-    - 2.0.1-preview
-    - 2.0.2-preview
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.1-preview
-    - 2.2.0-preview
-    - 2.2.1-preview
-    - 2.2.2-preview
-    - 3.0.0-preview.1
-    - 3.0.1-preview
-    - 3.1.0-exp.1
-    - 3.1.0-exp.2
-    - 3.1.0-exp.3
-    - 3.1.0-exp.4
-    - 3.1.0-exp.5
-    - 3.1.0-exp.6
-    compatible:
-    - 1.1.1-preview
-    - 1.2.0-preview
-    - 1.2.1-preview
-    - 1.2.2-preview
-    - 1.2.3-preview
-    - 2.0.0-preview
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.0.0-preview.4
-    - 2.0.1-preview
-    - 2.0.2-preview
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.1-preview
-    - 2.2.0-preview
-    - 2.2.1-preview
-    - 2.2.2-preview
-    - 3.0.0-preview.1
-    - 3.0.1-preview
-    - 3.1.0-exp.1
-    - 3.1.0-exp.2
-    - 3.1.0-exp.3
-    - 3.1.0-exp.4
-    - 3.1.0-exp.5
-    - 3.1.0-exp.6
-    verified: 
-  dependencies:
-  - name: com.unity.webrtc
-    version: 3.0.0-pre.4
-  - name: com.unity.inputsystem
-    version: 1.4.4
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.screencapture
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.webrtc
-    version: 3.0.0-pre.4
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  - name: com.unity.inputsystem
-    version: 1.5.1
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.screencapture
-    version: 1.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638128195950000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.renderstreaming@3.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/UnityRenderStreaming.git
-    revision: cdf3a002530722d8a464d1b5025bd92e9fb1abb6
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
@@ -661,6 +533,7 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -673,6 +546,7 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3783,145 +3657,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.6
-    nextVersion: 
-- packageId: com.unity.webrtc@3.0.0-pre.4
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.0-pre.4
-  source: 1
-  resolvedPath: C:\Users\nip02\OneDrive\Documentos\GitHub\Fisio_room\My project (1)\Library\PackageCache\com.unity.webrtc@3.0.0-pre.4
-  assetPath: Packages/com.unity.webrtc
-  name: com.unity.webrtc
-  displayName: WebRTC
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: The WebRTC package provides browsers and mobile applications with
-    Real-Time Communications (RTC) capabilities.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.1-preview
-    - 1.1.0-preview
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 2.0.0-preview
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.0.1-preview
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.5-preview
-    - 2.1.0-preview.1
-    - 2.1.0-preview.4
-    - 2.1.1-preview
-    - 2.1.2-preview
-    - 2.1.3-preview
-    - 2.2.0-preview
-    - 2.2.1-preview
-    - 2.3.0-preview
-    - 2.3.1-preview
-    - 2.3.2-preview
-    - 2.3.3-preview
-    - 2.4.0-exp.1
-    - 2.4.0-exp.2
-    - 2.4.0-exp.3
-    - 2.4.0-exp.4
-    - 2.4.0-exp.5
-    - 2.4.0-exp.6
-    - 2.4.0-exp.7
-    - 2.4.0-exp.8
-    - 2.4.0-exp.9
-    - 2.4.0-exp.10
-    - 2.4.0-exp.11
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 3.0.0-pre.5
-    compatible:
-    - 1.0.1-preview
-    - 1.1.0-preview
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 2.0.0-preview
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.0.1-preview
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.5-preview
-    - 2.1.0-preview.1
-    - 2.1.0-preview.4
-    - 2.1.1-preview
-    - 2.1.2-preview
-    - 2.1.3-preview
-    - 2.2.0-preview
-    - 2.2.1-preview
-    - 2.3.0-preview
-    - 2.3.1-preview
-    - 2.3.2-preview
-    - 2.3.3-preview
-    - 2.4.0-exp.1
-    - 2.4.0-exp.2
-    - 2.4.0-exp.3
-    - 2.4.0-exp.4
-    - 2.4.0-exp.5
-    - 2.4.0-exp.6
-    - 2.4.0-exp.7
-    - 2.4.0-exp.8
-    - 2.4.0-exp.9
-    - 2.4.0-exp.10
-    - 2.4.0-exp.11
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 3.0.0-pre.5
-    verified: 
-  dependencies:
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.editorcoroutines
-    version: 1.0.0
-  - name: com.unity.modules.audio
-    version: 1.0.0
-  keywords:
-  - webrtc
-  - web
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638094410810000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.webrtc@3.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.webrtc.git
-    revision: 9188e5432e9dea277bb6bffab082ba3ae5bfd0ae
-    path: 
-  unityLifecycle:
-    version: 
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0

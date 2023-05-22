@@ -714,12 +714,12 @@ GameObject:
   - component: {fileID: 143796517}
   - component: {fileID: 143796516}
   m_Layer: 5
-  m_Name: Menu_Equilibrio (1)
+  m_Name: Resultado_Equilibrio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &143796515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -742,7 +742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.434, y: -0.006745696}
+  m_AnchoredPosition: {x: -0.07549575, y: -0.006745696}
   m_SizeDelta: {x: 761.19995, y: 390.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143796516
@@ -903,6 +903,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 313387026}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 143796514}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &231846311
 MonoBehaviour:
@@ -1084,7 +1108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &313387027
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5118,7 +5142,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14135c7c88525f419b1e9ae21213832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTracking: 0
+  elapsedTime: 0
+  interactionDuration: 10
+  cameraStartPosition: {x: 0, y: 0, z: 0}
+  totalDistance: 0
+  startButton: {fileID: 231846310}
+  playerHeight: 1.5
   percentageText: {fileID: 1104597773}
+  playerHead: {fileID: 0}
 --- !u!1 &1815378640
 GameObject:
   m_ObjectHideFlags: 0

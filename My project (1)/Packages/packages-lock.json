@@ -83,18 +83,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.renderstreaming": {
-      "version": "3.1.0-exp.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.webrtc": "3.0.0-pre.4",
-        "com.unity.inputsystem": "1.4.4",
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.screencapture": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.settings-manager": {
       "version": "1.0.3",
       "depth": 2,
@@ -160,17 +148,6 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.webrtc": {
-      "version": "3.0.0-pre.4",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.modules.audio": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },

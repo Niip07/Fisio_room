@@ -1,34 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
-public class RastrearCabeça : MonoBehaviour
+public class HeadTracking : MonoBehaviour
 {
-    bool isTracking = false;
-    float elapsedTime = 0f;
-    float interactionDuration = 10f;
-    Vector3 cameraStartPosition;
-    float totalDistance = 0f;
+    [SerializeField] private float interactionDuration = 10f; // Duração da interação em segundos
+    [SerializeField] private float playerHeight = 1.5f; // Altura mínima do jogador para considerá-lo em pé
 
-    public TMP_Text percentageText;
+    [SerializeField] private Button startButton; // Referência ao botão de início na cena
+    [SerializeField] private TMP_Text percentageText; // Referência ao componente TextMeshPro para exibir a porcentagem de movimento
 
-    void Update()
-    {   
-        //Condição para iniciar o rastreamento quando o botão for apertado
+    private bool isTracking = false;
+    private float elapsedTime = 0f;
+    private Vector3 cameraStartPosition;
+    private float totalDistance = 0f;
+    private Transform playerHead;
+
+    private void Update()
+    {
+        bool isPlayerStanding = IsPlayerStanding();
+        startButton.interactable = !isTracking && isPlayerStanding; // Habilita ou desabilita o botão de início
+
         if (isTracking)
-        {   
+        {
             elapsedTime += Time.deltaTime;
 
             if (elapsedTime >= interactionDuration)
             {
-                float percentageMoved = 100 - ((totalDistance / interactionDuration) * 100f);
-                
-                percentageText.text = "Porcentagem de movimento: " + percentageMoved.ToString("F2") + "%";
+                float percentageMoved = 100f - (totalDistance / interactionDuration) * 100f;
+                percentageText.text = $"Porcentagem de movimento: {percentageMoved:F2}%";
 
-                elapsedTime = 7f;
-                //totalDistance = 0f;
-                isTracking = true;
+                elapsedTime = 7f; // Reinicializa o tempo decorrido para evitar que o cálculo seja executado novamente
+                // totalDistance = 0f; // Comentado para não reiniciar a distância total a cada interação
+                isTracking = true; // Isso não altera o estado de rastreamento, pois já está definido como true
             }
             else if (elapsedTime >= 1f)
             {
@@ -41,14 +45,19 @@ public class RastrearCabeça : MonoBehaviour
         }
     }
 
+    private bool IsPlayerStanding()
+    {
+        float playerHeadY = transform.position.y;
+
+        return playerHeadY >= playerHeight; // Retorna true se a posição Y da cabeça do jogador for maior ou igual à altura mínima
+    }
+
     public void OnButtonClick()
     {
-        isTracking = true;
+        isTracking = true; // Define o estado de rastreamento como true
         cameraStartPosition = Camera.main.transform.position;
         elapsedTime = 0f;
         totalDistance = 0f;
-        percentageText.text = "Calculando...";
+        percentageText.text = "Calculando..."; // Define um texto temporário enquanto a porcentagem está sendo calculada
     }
 }
-
-
