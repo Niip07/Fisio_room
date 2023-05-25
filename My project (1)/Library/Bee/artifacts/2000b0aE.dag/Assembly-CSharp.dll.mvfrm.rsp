@@ -1,5 +1,8 @@
+Library\Bee\artifacts\mvdfrm\Unity.2D.Sprite.Editor.ref.dll_493FFFF13AE54DA2.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_63B9EB35A0645901.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_AF8BE3CD1809BA27.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEditorBridge.003.ref.dll_4A2AC5D775FA9BE6.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEngineBridge.003.ref.dll_3CA57E81DB09832B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.Editor.ref.dll_64944B6DD477E1FD.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_9B4CF66C9079F0F4.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Performance.Profile-Analyzer.Editor.ref.dll_C0422B8CE3C1BDD1.mvfrm
@@ -13,6 +16,8 @@ Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_3701448EC0EF5C81.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_05875DFCD7CD8938.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_D34675E5055C5209.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VSCode.Editor.ref.dll_CF19E61DDF16767F.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VectorGraphics.Editor.ref.dll_8058EF176488D7BB.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VectorGraphics.ref.dll_33986FD140153756.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.Editor.ref.dll_83BC621B72BABDA3.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_EA71DBF61AC412EE.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Flow.Editor.ref.dll_00ED4ACA819948E4.mvfrm
